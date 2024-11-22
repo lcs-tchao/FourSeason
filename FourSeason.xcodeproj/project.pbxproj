@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AF24424E2CF0C1490017978F /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2442432CF0C1490017978F /* Season.swift */; };
+		AF2442502CF0C1490017978F /* SeasonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2442482CF0C1490017978F /* SeasonListView.swift */; };
+		AF2442512CF0C1490017978F /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2442492CF0C1490017978F /* SeasonView.swift */; };
+		AF2442522CF0C1490017978F /* FourSeasonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF24424C2CF0C1490017978F /* FourSeasonApp.swift */; };
+		AF2442532CF0C1490017978F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2442452CF0C1490017978F /* Preview Assets.xcassets */; };
+		AF2442542CF0C1490017978F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF24424B2CF0C1490017978F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		653248872CEE34E60064E89B /* FourSeason.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSeason.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2442432CF0C1490017978F /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		AF2442452CF0C1490017978F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF2442482CF0C1490017978F /* SeasonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonListView.swift; sourceTree = "<group>"; };
+		AF2442492CF0C1490017978F /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		AF24424B2CF0C1490017978F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF24424C2CF0C1490017978F /* FourSeasonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSeasonApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		653248892CEE34E60064E89B /* FourSeason */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FourSeason;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		653248842CEE34E60064E89B /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		6532487E2CEE34E60064E89B = {
 			isa = PBXGroup;
 			children = (
-				653248892CEE34E60064E89B /* FourSeason */,
+				AF24424D2CF0C1490017978F /* FourSeason */,
 				653248882CEE34E60064E89B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,43 @@
 				653248872CEE34E60064E89B /* FourSeason.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2442442CF0C1490017978F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF2442432CF0C1490017978F /* Season.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF2442472CF0C1490017978F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF2442452CF0C1490017978F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF24424A2CF0C1490017978F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF2442482CF0C1490017978F /* SeasonListView.swift */,
+				AF2442492CF0C1490017978F /* SeasonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF24424D2CF0C1490017978F /* FourSeason */ = {
+			isa = PBXGroup;
+			children = (
+				AF24424C2CF0C1490017978F /* FourSeasonApp.swift */,
+				AF2442442CF0C1490017978F /* Model */,
+				AF24424A2CF0C1490017978F /* Views */,
+				AF2442472CF0C1490017978F /* Preview Content */,
+				AF24424B2CF0C1490017978F /* Assets.xcassets */,
+			);
+			path = FourSeason;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +103,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				653248892CEE34E60064E89B /* FourSeason */,
 			);
 			name = FourSeason;
 			packageProductDependencies = (
@@ -109,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2442532CF0C1490017978F /* Preview Assets.xcassets in Resources */,
+				AF2442542CF0C1490017978F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF24424E2CF0C1490017978F /* Season.swift in Sources */,
+				AF2442502CF0C1490017978F /* SeasonListView.swift in Sources */,
+				AF2442512CF0C1490017978F /* SeasonView.swift in Sources */,
+				AF2442522CF0C1490017978F /* FourSeasonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

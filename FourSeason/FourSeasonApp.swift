@@ -11,7 +11,7 @@ import SwiftUI
 struct FourSeasonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SeasonListView()
         }
     }
 }
